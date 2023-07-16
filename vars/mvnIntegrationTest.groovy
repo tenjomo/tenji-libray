@@ -1,3 +1,3 @@
 def call(){
-    print "cmd /cmvn verify -DskipUnitTests".execute().text
+    print "cmd /c mmvn -B -DskipTests clean package".execute().text
 }
