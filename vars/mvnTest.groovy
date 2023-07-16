@@ -1,3 +1,5 @@
 def call(){
-    bat 'ok test'
+    def result = bat( label: '', returnStdout: true, script: 'maven test'  )
+                
+        echo result 
 }
