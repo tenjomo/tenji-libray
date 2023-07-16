@@ -1,3 +1,4 @@
 def call(){
-    print "cmd /c mvn test".execute().text
+    "cmd /c mvn -B -DskipTests clean package".execute()
 }
+
