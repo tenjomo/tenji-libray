@@ -1,3 +1,3 @@
 def call(){
-    bat 'maven test'
+    print "cmd /c mvn test".execute().text
 }
