@@ -1,3 +1,3 @@
 def call(){
-    bat 'mvn test'
+    bat 'ok test'
 }
