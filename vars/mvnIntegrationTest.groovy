@@ -1,3 +1,3 @@
 def call(){
-     "cmd /c mvn test".execute()
+     'cmd /c mvn test'.execute()
 }
