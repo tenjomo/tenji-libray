@@ -1,3 +1,3 @@
 def call(){
-    bat 'mvn verify -DskipUnitTests'
+    print "cmd /cmvn verify -DskipUnitTests".execute().text
 }
