@@ -1,3 +1,3 @@
 def call(){
-     'cmd /c mvn test'.execute()
+     sh 'mvn verify -DskipUnitTests'
 }
